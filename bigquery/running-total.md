@@ -23,6 +23,7 @@ Using total Spotify streams as an example data source, let's identify:
 - `fields` - this is just `artist`
 - `ordering` - this is the `day` column
 - `table` - this is called `raw`
+
 then the query is:
 
 ```sql
