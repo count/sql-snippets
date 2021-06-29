@@ -16,7 +16,6 @@ where
 - `quantity` - the column containing the metric of interest
 - `table` - the table name
 # Example
-In this example, the quantity of interest is the number of streams for an artist on a given day.
 
 Using total Spotify streams as an example data source, let's identify:
 - `table` - this is called `raw`
