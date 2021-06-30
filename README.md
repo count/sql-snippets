@@ -1,5 +1,4 @@
 <h1>
-  <img src="https://user-images.githubusercontent.com/34280721/123963320-3f06a580-d9aa-11eb-95b5-d3e2433201e8.png" width="25" height="32">
   <span>SQL Snippets</span>
 </h1>
  
