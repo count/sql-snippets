@@ -35,3 +35,4 @@ from raw
 | --- | --------- | --- | ----|
 | 685306 | Dalex, Lenny Tavárez, Chencho Corleone, Juhn, Dímelo Flow | 2020-08-01 | 1 |
 | 680634 | Dalex, Lenny Tavárez, Chencho Corleone, Juhn, Dímelo Flow | 2020-08-08 | 2 |
+| ... | ... | ... | ... |
