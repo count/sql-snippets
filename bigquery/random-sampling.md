@@ -16,6 +16,10 @@ The [RAND](https://cloud.google.com/bigquery/docs/reference/standard-sql/functio
 -- one_percent
 select * from spotify.spotify_daily_tracks where rand() < 0.01
 ```
+| day      | track_id | rank | title | artist | streams |
+| -------- | -------- |----- | ----- | ------ | ------- |
+| 2018-01-09 | 6mrKP2jyIQmM0rw6fQryjr  | 9 | Let You Down | NF | 2610265 |
+|...   | ...   | ...   | ...   | ...   | ...   |
 
 #### Return 10 rows
 
@@ -23,6 +27,11 @@ select * from spotify.spotify_daily_tracks where rand() < 0.01
 -- ten_rows
 select * from spotify.spotify_daily_tracks order by rand() limit 10
 ```
+| day      | track_id | rank | title | artist | streams |
+| -------- | -------- |----- | ----- | ------ | ------- |
+| 2018-01-09 | 6mrKP2jyIQmM0rw6fQryjr  | 9 | Let You Down | NF | 2610265 |
+|...   | ...   | ...   | ...   | ...   | ...   |
+(only 10 rows returned)
 
 #### Return approximately 10 rows (discouraged)
 
@@ -33,7 +42,11 @@ select
 from spotify.spotify_daily_tracks
 where rand() < 10 / (select count(*) from spotify.spotify_daily_tracks)
 ```
-
+| day      | track_id | rank | title | artist | streams |
+| -------- | -------- |----- | ----- | ------ | ------- |
+| 2018-01-09 | 6mrKP2jyIQmM0rw6fQryjr  | 9 | Let You Down | NF | 2610265 |
+|...   | ...   | ...   | ...   | ...   | ...   |
+(only 10 rows returned)
 
 # Using hashing
 A hash is a deterministic mapping from one value to another, and so is not random, but can appear random 'enough' to produce a convincing sample. Use a [supported hash function](https://cloud.google.com/bigquery/docs/reference/standard-sql/hash_functions) in BigQuery to produce a pseudo-random ordering of your table:
@@ -44,6 +57,11 @@ A hash is a deterministic mapping from one value to another, and so is not rando
 -- farm_fingerprint
 select * from spotify.spotify_artists order by farm_fingerprint(spotify_artists.artist_id) limit 10
 ```
+| artist_id      | name | popularity | followers | updated_at | url |
+| -------- | -------- |----- | ----- | ------ | ------- |
+| 5wPoxI5si3eJsYYwyXV4Wi | N.E.R.D  | 64 | 647718 | 2021-03-14 | https://open.spotify.com/artist/5wPoxI5si3eJsYYwyXV4Wi |
+|...   | ...   | ...   | ...   | ...   | ...   |
+(only 10 rows returned)
 
 #### MD5
 
@@ -51,6 +69,11 @@ select * from spotify.spotify_artists order by farm_fingerprint(spotify_artists.
 -- md5
 select * from spotify.spotify_artists order by md5(spotify_artists.artist_id) limit 10
 ```
+| artist_id      | name | popularity | followers | updated_at | url |
+| -------- | -------- |----- | ----- | ------ | ------- |
+| 5wPoxI5si3eJsYYwyXV4Wi | N.E.R.D  | 64 | 647718 | 2021-03-14 | https://open.spotify.com/artist/5wPoxI5si3eJsYYwyXV4Wi |
+|...   | ...   | ...   | ...   | ...   | ...   |
+(only 10 rows returned)
 
 #### SHA1
 
@@ -58,6 +81,11 @@ select * from spotify.spotify_artists order by md5(spotify_artists.artist_id) li
 -- SHA1
 select * from spotify.spotify_artists order by sha1(spotify_artists.artist_id) limit 10
 ```
+| artist_id      | name | popularity | followers | updated_at | url |
+| -------- | -------- |----- | ----- | ------ | ------- |
+| 5wPoxI5si3eJsYYwyXV4Wi | N.E.R.D  | 64 | 647718 | 2021-03-14 | https://open.spotify.com/artist/5wPoxI5si3eJsYYwyXV4Wi |
+|...   | ...   | ...   | ...   | ...   | ...   |
+(only 10 rows returned)
 
 #### SHA256
 
@@ -65,14 +93,22 @@ select * from spotify.spotify_artists order by sha1(spotify_artists.artist_id) l
 -- SHA256
 select * from spotify.spotify_artists order by sha256(spotify_artists.artist_id) limit 10
 ```
-
+| artist_id      | name | popularity | followers | updated_at | url |
+| -------- | -------- |----- | ----- | ------ | ------- |
+| 5wPoxI5si3eJsYYwyXV4Wi | N.E.R.D  | 64 | 647718 | 2021-03-14 | https://open.spotify.com/artist/5wPoxI5si3eJsYYwyXV4Wi |
+|...   | ...   | ...   | ...   | ...   | ...   |
+(only 10 rows returned)
 #### SHA512
 
 ```sql
 -- SHA512
 select * from spotify.spotify_artists order by sha512(spotify_artists.artist_id) limit 10
 ```
-
+| artist_id      | name | popularity | followers | updated_at | url |
+| -------- | -------- |----- | ----- | ------ | ------- |
+| 5wPoxI5si3eJsYYwyXV4Wi | N.E.R.D  | 64 | 647718 | 2021-03-14 | https://open.spotify.com/artist/5wPoxI5si3eJsYYwyXV4Wi |
+|...   | ...   | ...   | ...   | ...   | ...   |
+(only 10 rows returned)
 
 # Using TABLESAMPLE
 The [TABLESAMPLE](https://cloud.google.com/bigquery/docs/table-sampling) clause is currently in preview status, but it has a major benefit - it doesn't require a full table scan, and therefore can be much cheaper and quicker than the methods above. The downside is that the percentage value must be a literal, so this query is less flexible than the ones above.
@@ -83,3 +119,7 @@ The [TABLESAMPLE](https://cloud.google.com/bigquery/docs/table-sampling) clause 
 -- tablesample
 select * from spotify.spotify_daily_tracks tablesample system (10 percent)
 ```
+| artist_id      | name | popularity | followers | updated_at | url |
+| -------- | -------- |----- | ----- | ------ | ------- |
+| 5wPoxI5si3eJsYYwyXV4Wi | N.E.R.D  | 64 | 647718 | 2021-03-14 | https://open.spotify.com/artist/5wPoxI5si3eJsYYwyXV4Wi |
+|...   | ...   | ...   | ...   | ...   | ...   |
