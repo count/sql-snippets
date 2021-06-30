@@ -23,6 +23,9 @@ All [contributions](./CONTRIBUTING.md) are very welcome - let's get useful SQL s
 - [Unpivoting / melting](./bigquery/unpivot-melt.md)
 - [Year-on-year changes](./bigquery/yoy.md)
 
+## Also see
+- [bigquery-utils](https://github.com/GoogleCloudPlatform/bigquery-utils) - a BigQuery-specific collection of scripts
+
 <h1>
   <img src="https://user-images.githubusercontent.com/34280721/123956293-6ce7ec00-d9a2-11eb-93ff-22d545a1fb59.png" width="25" height="32">
   <span>Snowflake</span>
