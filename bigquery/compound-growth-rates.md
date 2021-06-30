@@ -64,3 +64,7 @@ select
   exp(growth_rate) as yoy_growth
 from with_growth_rate
 ```
+| num_this_month  | num_last_year | growth_rate | yoy_growth |
+| ----------- | ----------- | ----------- | ----------- |
+| 343386934      | 361476484       | -0.6160690738834281       | 0.5400632190921264       | 
+| 1151727105   | 343386934        | 14.521920316267764 |  2026701.8316519475 |
