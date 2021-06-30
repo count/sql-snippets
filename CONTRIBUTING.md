@@ -18,7 +18,7 @@ Take a look at the existing snippets and try to format your contribution similar
 
 
 ## License
-By contributing, you agree that your contributions will be licensed under its MIT License.
+By contributing to this repository, you agree that your contributions will be licensed under its MIT License.
 
 ## References
 This document was adapted from the GitHub Gist of [briandk](https://gist.github.com/briandk/3d2e8b3ec8daf5a27a62).
