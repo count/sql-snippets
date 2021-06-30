@@ -1,5 +1,8 @@
-# sql-snippets
-
+<h1>
+  <img src="https://user-images.githubusercontent.com/34280721/123963320-3f06a580-d9aa-11eb-95b5-d3e2433201e8.png" width="25" height="32">
+  <span>SQL Snippets</span>
+</h1>
+ 
 A curated collection of helpful SQL queries and functions, maintained by [Count](https://count.co).
 
 All [contributions](./CONTRIBUTING.md) are very welcome - let's get useful SQL snippets out of Slack channels and Notion pages and share them for others to build on.
