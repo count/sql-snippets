@@ -37,3 +37,6 @@ SELECT
 FROM
   spotify.spotify_artists
 ```
+| median_followers  |
+| ---  |
+| 1358146.5 |
