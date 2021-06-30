@@ -1,5 +1,5 @@
 # Year-on-year percentage difference
-
+To explore this example with some demo data, head [here](https://count.co/n/7I6eHGEwxX3?vm=e).
 
 # Description
 Calculating the year-on-year change of a quantity typically requires a few steps:
@@ -46,7 +46,11 @@ select
 from spotify.spotify_daily_tracks
 group by 1,3
 ```
-
+| year | sum_streams | artist |
+| --- | ----------- | ---- |
+| 2020-01-01 | 115372043 | CJ |
+| 2021-01-01 | 179284925 | CJ |
+| ... | ... | ... |
 ```sql
 -- with_perc_diff
 select
@@ -60,3 +64,8 @@ from (
   order by artist, year desc
 )
 ```
+| year | sum_streams | artist | last_year_total | perc_diff | 
+| --- | ----------- | ---- | ---- | ----- |
+| 2020-01-01 | 115372043 | CJ | NULL | NULL |
+| 2021-01-01 | 179284925 | CJ | 115372043 | 55.397200515899684 | 
+| ... | ... | ... | ... | .... |
