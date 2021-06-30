@@ -9,6 +9,7 @@ All [contributions](./CONTRIBUTING.md) are very welcome - let's get useful SQL s
 
 ### [🙋‍♀️ Request a snippet](https://github.com/count/sql-snippets/issues/new?assignees=&labels=help+wanted&template=snippet-request.md&title=%5BSNIPPET+REQUEST%5D+)
 ### [⁉️ Report a bug](https://github.com/count/sql-snippets/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBUG%5D+)
+### [↣ Submit a pull request](https://github.com/count/sql-snippets/compare)
 
 <h1>
   <img src="https://user-images.githubusercontent.com/34280721/123955453-89375900-d9a1-11eb-9af1-d236cf3c5313.png" width="25" height="32">
