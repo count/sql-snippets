@@ -9,15 +9,18 @@ All [contributions](./CONTRIBUTING.md) are very welcome - let's get useful SQL s
   <span>BigQuery</span>
  </h1>
 
-- [CDFs](./bigquery/cdf.md)
+- [Array to columns](./bigquery/array-to-columns.md)
+- [Cumulative distribution functions](./bigquery/cdf.md)
 - [Compound growth rates](./bigquery/compound-growth-rates.md)
+- [Histogram bins](./bigquery/histogram-bins.md)
 - [Median UDF](./bigquery/median-udf.md)
 - [Median](./bigquery/median.md)
-- [Moving average](./bigquery/moving-average.md)
+- [Moving averages](./bigquery/moving-average.md)
+- [Parsing URLs with regular expressions](./bigquery/regex-parse-url.md)
 - [Random sampling](./bigquery/random-sampling.md)
 - [Ranking](./bigquery/rank.md)
 - [Running totals](./bigquery/running-total.md)
-- [Unpivot / melt](./bigquery/unpivot-melt.md)
+- [Unpivoting / melting](./bigquery/unpivot-melt.md)
 - [Year-on-year changes](./bigquery/yoy.md)
 
 <h1>
