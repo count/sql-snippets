@@ -39,7 +39,14 @@ SELECT
 FROM a UNPIVOT(value FOR metric IN (B, C))
 order by metric, value
 ```
-
+| A | metric | value |
+| --- | ----- | ------ |
+| a | B | 1 |
+| b | B | 3 |
+| c | B | 5 |
+| a | C | 2 |
+| b | C | 4 |
+| c | C | 6 |
 
 If you would rather not use preview features in BigQuery, there is another generic solution (from [StackOverflow](https://stackoverflow.com/a/47657770)), though it may be much less performant than the built-in `UNPIVOT` implementation.
 The query template here is
@@ -100,3 +107,11 @@ from (
 where metric not in ('A') -- Filter extra rows that we don't need
 order by metric, value
 ```
+| A | metric | value |
+| --- | ----- | ------ |
+| a | B | 1 |
+| b | B | 3 |
+| c | B | 5 |
+| a | C | 2 |
+| b | C | 4 |
+| c | C | 6 |
