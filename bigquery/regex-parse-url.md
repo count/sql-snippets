@@ -1,5 +1,5 @@
 # Regex: Parse URL String
-Explore the query with some demo data [here](https://count.co/n/U2RGnRt91pB).
+Explore the query with some demo data [here](https://count.co/n/U2RGnRt91pB?vm=e).
 
 # Description
 URL strings are a very valuable source of information, but trying to get your regex exactly right is a pain. 
@@ -37,6 +37,9 @@ SELECT
   REGEXP_EXTRACT(url, r'^([a-zA-Z]+)://') as protocol
 FROM my_url
 ```
+| host | path | query | ref | protocol|
+| --- | ------ | ----- | --- | ------|
+| www.yoursite.com | pricing/details | myparam1=123&myparam2=abc#newsfeed | newsfeed | https |
 
 
 # References Helpful Links
