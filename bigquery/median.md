@@ -23,3 +23,6 @@ SELECT
 FROM
   <PROJECT.SCHEMA.TABLE>
 ```
+| median |
+| ----------- |
+| 1358146.5 |

@@ -1,5 +1,5 @@
 # Histogram Bins
-Test out this snippet with some demo data [here](https://count.co/n/J7s46HSTsrm).
+Test out this snippet with some demo data [here](https://count.co/n/J7s46HSTsrm?vm=e).
 
 # Description
 Creating histograms using SQL can be tricky. This snippet will let you quickly create the bins needed to create a histogram:
@@ -19,7 +19,7 @@ where:
 
 
 # Usage
-To use, adjust the bin-size until you can see the 'shape' of the data. The following example finds the percentage of whiskies with in $5 bin groupings: 
+To use, adjust the bin-size until you can see the 'shape' of the data. The following example finds the percentage of whiskies with by 5-point review groupings. The reviews are on a 0-100 scale: 
 
 ```sql
 SELECT 
@@ -28,3 +28,9 @@ SELECT
 from whisky.scotch_reviews
 group by bin
 ```
+| percentage_of_results | bin |
+| --- | ----------- |
+| 0.005 | 70 |
+| 0.03 | 75 |
+| ... | ... |
+| 0.016 | 96 |
