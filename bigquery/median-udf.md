@@ -1,5 +1,5 @@
 # MEDIAN UDF
-
+Explore the function with some demo data [here](https://count.co/n/RHmVhHzZpIp?vm=e).
 
 # Description
 BigQuery does not have an explicit `MEDIAN` function. The following snippet will show you how to create a custom function for `MEDIAN` in your BigQuery instance. 
