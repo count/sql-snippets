@@ -2,6 +2,8 @@
 
 A curated collection of helpful SQL queries and functions, maintained by [Count](https://count.co).
 
+All [contributions](./CONTRIBUTING.md) are very welcome - let's get useful SQL snippets out of Slack channels and Notion pages and share them for others to build on.
+
 <h1>
   <img src="https://user-images.githubusercontent.com/34280721/123955453-89375900-d9a1-11eb-9af1-d236cf3c5313.png" width="25" height="32">
   <span>BigQuery</span>
