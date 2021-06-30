@@ -1,5 +1,6 @@
 # Compound growth rates
 
+Explore this snippet with some demo data [here](https://count.co/n/brfwkHOAdUQ?vm=e).
 
 # Description
 When a quantity is increasing in time by the same fraction every period, it is said to exhibit **compound growth** - every time period it increases by a larger amount.

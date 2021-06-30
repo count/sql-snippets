@@ -1,5 +1,6 @@
 # Rank
 
+Explore this snippet with some demo data [here](https://count.co/n/eVT4mi7X88o?vm=e).
 
 # Description
 A common requirement is the need to rank a particular row in a group by some quantity - for example, 'rank stores by total sales in each region'. Fortunately BigQuery supports the `rank` window function to help with this.

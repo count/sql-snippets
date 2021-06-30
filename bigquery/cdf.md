@@ -1,5 +1,6 @@
 # Cumulative distribution functions
 
+Explore this snippet with some demo data [here](https://count.co/n/sL7bEFcg11Z?vm=e).
 
 # Description
 Cumulative distribution functions (CDF) are a method for analysing the distribution of a quantity, similar to histograms. They show, for each value of a quantity, what fraction of rows are smaller or greater.

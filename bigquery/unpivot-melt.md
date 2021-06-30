@@ -1,5 +1,6 @@
 # Unpivot / melt
 
+Explore this snippet with some demo data [here](https://count.co/n/xwGc7kFuAm0?vm=e).
 
 # Description
 The act of unpivoting (or melting, if you're a `pandas` user) is to convert columns to rows. BigQuery has recently added the [UNPIVOT](https://cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax#unpivot_operator) operator as a preview feature.

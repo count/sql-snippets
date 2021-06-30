@@ -1,5 +1,6 @@
 # Moving average
 
+Explore this snippet with some demo data [here](https://count.co/n/X2EmYjUGwwO?vm=e).
 
 # Description
 Moving averages are relatively simple to calculate in BigQuery, using the `avg` window function. The template for the query is

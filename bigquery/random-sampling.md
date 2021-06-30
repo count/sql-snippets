@@ -1,5 +1,6 @@
 # Random sampling
 
+Explore this snippet with some demo data [here](https://count.co/n/cSN4gyht6Vd?vm=e).
 
 # Description
 Taking a random sample of a table is often useful when the table is very large, and you are still working in an exploratory or investigative mode. A query against a small fraction of a table runs much more quickly, and consumes fewer resources.

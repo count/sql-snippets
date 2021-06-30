@@ -1,5 +1,6 @@
 # MEDIAN
 
+Explore this snippet with some demo data [here](https://count.co/n/7XpUfYUH9p6?vm=e).
 
 # Description
 BigQuery does not have an explicit `MEDIAN` function. The following snippet will show you how to calculate the median of any column. 

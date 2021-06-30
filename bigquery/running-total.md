@@ -1,5 +1,6 @@
 # Running total
 
+Explore this snippet with some demo data [here](https://count.co/n/xFHD89xBRAU?vm=e).
 
 # Description
 Running totals are relatively simple to calculate in BigQuery, using the `sum` window function.
