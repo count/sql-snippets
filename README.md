@@ -20,6 +20,7 @@ All [contributions](./CONTRIBUTING.md) are very welcome - let's get useful SQL s
   - [Filtering arrays](./bigquery/filtering-arrays.md)
   - [Generating arrays](./bigquery/generating-arrays.md)
   - [Get last array element](./bigquery/get-last-array-element.md)
+  - [Transforming arrays](./bigquery/transforming-arrays.md)
 - [Cumulative distribution functions](./bigquery/cdf.md)
 - [Compound growth rates](./bigquery/compound-growth-rates.md)
 - [Histogram bins](./bigquery/histogram-bins.md)
