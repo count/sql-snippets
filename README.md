@@ -17,6 +17,7 @@ All [contributions](./CONTRIBUTING.md) are very welcome - let's get useful SQL s
 
 - Arrays
   - [Array to columns](./bigquery/array-to-columns.md)
+  - [Filtering arrays](./bigquery/filtering-arrays.md)
   - [Generating arrays](./bigquery/generating-arrays.md)
   - [Get last array element](./bigquery/get-last-array-element.md)
 - [Cumulative distribution functions](./bigquery/cdf.md)
