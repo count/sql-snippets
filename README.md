@@ -18,6 +18,7 @@ All [contributions](./CONTRIBUTING.md) are very welcome - let's get useful SQL s
 - [Array to columns](./bigquery/array-to-columns.md)
 - [Cumulative distribution functions](./bigquery/cdf.md)
 - [Compound growth rates](./bigquery/compound-growth-rates.md)
+- [Generating arrays](./bigquery/generating-arrays.md)
 - [Histogram bins](./bigquery/histogram-bins.md)
 - [Median UDF](./bigquery/median-udf.md)
 - [Median](./bigquery/median.md)
