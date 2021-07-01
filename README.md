@@ -22,7 +22,6 @@ All [contributions](./CONTRIBUTING.md) are very welcome - let's get useful SQL s
 - [Median UDF](./bigquery/median-udf.md)
 - [Median](./bigquery/median.md)
 - [Moving averages](./bigquery/moving-average.md)
-- [Parsing URLs with regular expressions](./bigquery/regex-parse-url.md)
 - [Random sampling](./bigquery/random-sampling.md)
 - [Ranking](./bigquery/rank.md)
 - [Running totals](./bigquery/running-total.md)
@@ -39,6 +38,10 @@ All [contributions](./CONTRIBUTING.md) are very welcome - let's get useful SQL s
 ### Dates and times
 - [Converting from strings](./bigquery/convert-string-datetimes.md)
 - [Converting to strings](./bigquery/convert-datetimes-string.md)
+
+### Regular expressions
+- [Parsing URLs](./bigquery/regex-parse-url.md)
+- [Validating emails](./bigquery/regex-email.md)
 
 ## Also see
 - [bigquery-utils](https://github.com/GoogleCloudPlatform/bigquery-utils) - a BigQuery-specific collection of scripts
