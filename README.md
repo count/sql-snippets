@@ -15,12 +15,6 @@ All [contributions](./CONTRIBUTING.md) are very welcome - let's get useful SQL s
   <span>BigQuery</span>
  </h1>
 
-- Arrays
-  - [Array to columns](./bigquery/array-to-columns.md)
-  - [Filtering arrays](./bigquery/filtering-arrays.md)
-  - [Generating arrays](./bigquery/generating-arrays.md)
-  - [Get last array element](./bigquery/get-last-array-element.md)
-  - [Transforming arrays](./bigquery/transforming-arrays.md)
 - [Cumulative distribution functions](./bigquery/cdf.md)
 - [Compound growth rates](./bigquery/compound-growth-rates.md)
 - [Histogram bins](./bigquery/histogram-bins.md)
@@ -33,6 +27,16 @@ All [contributions](./CONTRIBUTING.md) are very welcome - let's get useful SQL s
 - [Running totals](./bigquery/running-total.md)
 - [Unpivoting / melting](./bigquery/unpivot-melt.md)
 - [Year-on-year changes](./bigquery/yoy.md)
+
+### Arrays
+- [Array to columns](./bigquery/array-to-columns.md)
+- [Filtering arrays](./bigquery/filtering-arrays.md)
+- [Generating arrays](./bigquery/generating-arrays.md)
+- [Get last array element](./bigquery/get-last-array-element.md)
+- [Transforming arrays](./bigquery/transforming-arrays.md)
+
+### Dates and times
+- [Converting from strings]('./bigquery/convert-string-datetimes.md)
 
 ## Also see
 - [bigquery-utils](https://github.com/GoogleCloudPlatform/bigquery-utils) - a BigQuery-specific collection of scripts
