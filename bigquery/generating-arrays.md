@@ -1,5 +1,6 @@
 # Generating arrays
 
+Explore this snippet [here](https://count.co/n/2avxdwBFCGz?vm=e).
 
 # Description
 BigQuery supports the ARRAY column type - here are a few methods for generating arrays.
