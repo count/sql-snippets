@@ -37,6 +37,7 @@ All [contributions](./CONTRIBUTING.md) are very welcome - let's get useful SQL s
 
 ### Dates and times
 - [Converting from strings](./bigquery/convert-string-datetimes.md)
+- [Converting to strings](./bigquery/convert-datetimes-string.md)
 
 ## Also see
 - [bigquery-utils](https://github.com/GoogleCloudPlatform/bigquery-utils) - a BigQuery-specific collection of scripts
