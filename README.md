@@ -18,6 +18,7 @@ All [contributions](./CONTRIBUTING.md) are very welcome - let's get useful SQL s
 - [Cumulative distribution functions](./bigquery/cdf.md)
 - [Compound growth rates](./bigquery/compound-growth-rates.md)
 - [Histogram bins](./bigquery/histogram-bins.md)
+- [JSON strings](./bigquery/json-strings.md)
 - [Median UDF](./bigquery/median-udf.md)
 - [Median](./bigquery/median.md)
 - [Moving averages](./bigquery/moving-average.md)
