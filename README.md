@@ -28,6 +28,11 @@ All [contributions](./CONTRIBUTING.md) are very welcome - let's get useful SQL s
 ### Searching
 - [Search for text in Stored Procedures](./mssql/search-stored-procedures.md) ![SQL Server](https://img.shields.io/badge/SQL%20Server-red)
 
+### Window functions
+- [Moving averages](./bigquery/moving-average.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+- [Running totals](./bigquery/running-total.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+- [Year-on-year changes](./bigquery/yoy.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+
 ### Uncategorised
 - [Cumulative distribution functions](./bigquery/cdf.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
 - [Compound growth rates](./bigquery/compound-growth-rates.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
@@ -35,12 +40,9 @@ All [contributions](./CONTRIBUTING.md) are very welcome - let's get useful SQL s
 - [JSON strings](./bigquery/json-strings.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
 - [Median UDF](./bigquery/median-udf.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
 - [Median](./bigquery/median.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
-- [Moving averages](./bigquery/moving-average.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
 - [Random sampling](./bigquery/random-sampling.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
 - [Ranking](./bigquery/rank.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
-- [Running totals](./bigquery/running-total.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
 - [Unpivoting / melting](./bigquery/unpivot-melt.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
-- [Year-on-year changes](./bigquery/yoy.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
 
 
 ## Other resources
