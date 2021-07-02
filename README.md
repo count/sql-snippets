@@ -23,9 +23,9 @@ The colour of the badge is taken from the dominant colour of the database logo.
 
 ### Arrays
 - Arrays to columns [![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)](./bigquery/array-to-columns.md)
-- Filtering arrays [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/filtering-arrays.md)
-- Generating arrays [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/generating-arrays.md) 
-- Get last array element [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/get-last-array-element.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/get-last-array-element.md)
+- Filtering arrays [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/filtering-arrays.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/filtering-arrays.md)
+- Generating arrays [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/generating-arrays.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/generate-arrays.md)
+- Get last array element [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/get-last-array-element.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/get-last-array-element.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/last-array-element.md)
 - Reverse array [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/array-reverse.md)
 - Transforming arrays [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/transforming-arrays.md) 
 
@@ -38,25 +38,25 @@ The colour of the badge is taken from the dominant colour of the database logo.
 
 
 ### Regular expressions
-- Parsing URLs [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/regex-parse-url.md)
+- Parsing URLs [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/regex-parse-url.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/parse-url.md)
 - Validating emails [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/regex-email.md)
 
 ### Searching
 - Search for text in Stored Procedures [![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)](./mssql/search-stored-procedures.md) 
 
 ### Window functions
-- Moving averages [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/moving-average.md)
+- Moving averages [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/moving-average.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/moving-average.md)
 - Running totals [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/running-total.md)
 - Year-on-year changes [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/yoy.md)
 
 ### Uncategorised
 - Cumulative distribution functions [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/cdf.md)
 - Compound growth rates [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/compound-growth-rates.md)
-- Histogram bins [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/histogram-bins.md)
+- Histogram bins [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/histogram-bins.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/histogram-bins.md)
 - Median UDF [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/median-udf.md)
 - Median [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/median.md)
-- Random sampling [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/random-sampling.md)
-- Ranking [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/rank.md)
+- Random sampling [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/random-sampling.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/random-sampling.md)
+- Ranking [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/rank.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/rank.md)
 - Unpivoting / melting [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/unpivot-melt.md)
 
 
