@@ -10,39 +10,45 @@ All [contributions](./CONTRIBUTING.md) are very welcome - let's get useful SQL s
 
 ## Categories
 
+<!--
+BigQuery badge: ![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)
+Snowflake badge: ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)
+SQL Server badge: ![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)
+-->
+
 ### Arrays
-- [Array to columns](./bigquery/array-to-columns.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
-- [Filtering arrays](./bigquery/filtering-arrays.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
-- [Generating arrays](./bigquery/generating-arrays.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
-- [Get last array element](./bigquery/get-last-array-element.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
-- [Transforming arrays](./bigquery/transforming-arrays.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+- [Array to columns](./bigquery/array-to-columns.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)
+- [Filtering arrays](./bigquery/filtering-arrays.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
+- [Generating arrays](./bigquery/generating-arrays.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
+- [Get last array element](./bigquery/get-last-array-element.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
+- [Transforming arrays](./bigquery/transforming-arrays.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
 
 ### Dates and times
-- [Converting from strings](./bigquery/convert-string-datetimes.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
-- [Converting to strings](./bigquery/convert-datetimes-string.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+- [Converting from strings](./bigquery/convert-string-datetimes.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
+- [Converting to strings](./bigquery/convert-datetimes-string.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
 
 ### Regular expressions
-- [Parsing URLs](./bigquery/regex-parse-url.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
-- [Validating emails](./bigquery/regex-email.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+- [Parsing URLs](./bigquery/regex-parse-url.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
+- [Validating emails](./bigquery/regex-email.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
 
 ### Searching
-- [Search for text in Stored Procedures](./mssql/search-stored-procedures.md) ![SQL Server](https://img.shields.io/badge/SQL%20Server-red)
+- [Search for text in Stored Procedures](./mssql/search-stored-procedures.md) ![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)
 
 ### Window functions
-- [Moving averages](./bigquery/moving-average.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
-- [Running totals](./bigquery/running-total.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
-- [Year-on-year changes](./bigquery/yoy.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+- [Moving averages](./bigquery/moving-average.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
+- [Running totals](./bigquery/running-total.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
+- [Year-on-year changes](./bigquery/yoy.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
 
 ### Uncategorised
-- [Cumulative distribution functions](./bigquery/cdf.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
-- [Compound growth rates](./bigquery/compound-growth-rates.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
-- [Histogram bins](./bigquery/histogram-bins.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
-- [JSON strings](./bigquery/json-strings.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
-- [Median UDF](./bigquery/median-udf.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
-- [Median](./bigquery/median.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
-- [Random sampling](./bigquery/random-sampling.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
-- [Ranking](./bigquery/rank.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
-- [Unpivoting / melting](./bigquery/unpivot-melt.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+- [Cumulative distribution functions](./bigquery/cdf.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
+- [Compound growth rates](./bigquery/compound-growth-rates.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
+- [Histogram bins](./bigquery/histogram-bins.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
+- [JSON strings](./bigquery/json-strings.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
+- [Median UDF](./bigquery/median-udf.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
+- [Median](./bigquery/median.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
+- [Random sampling](./bigquery/random-sampling.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
+- [Ranking](./bigquery/rank.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
+- [Unpivoting / melting](./bigquery/unpivot-melt.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
 
 
 ## Other resources
