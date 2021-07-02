@@ -1,5 +1,5 @@
 # Moving average
-Explore this snippet with some demo data [here](https://count.co/n/r8NBYWlHNDs?vm=e).
+Explore this snippet with some demo data [here](https://count.co/n/vwTzk68QCZ7?vm=e).
 
 
 
