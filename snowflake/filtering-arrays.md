@@ -1,4 +1,5 @@
 # Filtering arrays
+Explore this snippet with some demo data [here](https://count.co/n/2rWE6XxrMAm?vm=e).
 
 
 # Description
