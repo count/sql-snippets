@@ -43,11 +43,16 @@ All [contributions](./CONTRIBUTING.md) are very welcome - let's get useful SQL s
 - [Parsing URLs](./bigquery/regex-parse-url.md)
 - [Validating emails](./bigquery/regex-email.md)
 
-### Searching
-- [Search for text in Stored Procedures](./mssql/search-stored-procedures.md)
-
 ## Also see
 - [bigquery-utils](https://github.com/GoogleCloudPlatform/bigquery-utils) - a BigQuery-specific collection of scripts
+
+<h1>
+  <img src="https://user-images.githubusercontent.com/34280721/124244139-8611a980-db16-11eb-86b2-f4f7acaad870.png" width="25" height="32">
+  <span>SQL Server</span>
+ </h1>
+
+ ### Searching
+- [Search for text in Stored Procedures](./mssql/search-stored-procedures.md)
 
 <h1>
   <img src="https://user-images.githubusercontent.com/34280721/123956293-6ce7ec00-d9a2-11eb-93ff-22d545a1fb59.png" width="25" height="32">
