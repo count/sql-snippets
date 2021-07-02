@@ -1,5 +1,5 @@
 # Histogram Bins
-Explore this snippet with some demo data [here](https://count.co/n/DlXMLRZqo6n?vm=e).
+Explore this snippet with some demo data [here](https://count.co/n/S6nEvljt64H?vm=e).
 
 
 # Description
