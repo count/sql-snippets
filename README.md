@@ -26,6 +26,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 - [Filtering arrays](./bigquery/filtering-arrays.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
 - [Generating arrays](./bigquery/generating-arrays.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
 - [Get last array element](./bigquery/get-last-array-element.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
+- [Get last array element](./postgres/get-last-array-element.md) ![Postgres](https://img.shields.io/badge/Postgres-336791)
 - [Reverse array](./postgres/array-reverse.md) ![Postgres](https://img.shields.io/badge/Postgres-336791)
 - [Transforming arrays](./bigquery/transforming-arrays.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
 
