@@ -11,9 +11,13 @@ All [contributions](./CONTRIBUTING.md) are very welcome - let's get useful SQL s
 ## Categories
 
 <!--
-BigQuery badge: ![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)
-Snowflake badge: ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)
-SQL Server badge: ![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)
+Database badges
+
+The colour of the badge is taken from the dominant colour of the database logo.
+
+![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)
 -->
 
 ### Arrays
