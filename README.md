@@ -1,6 +1,4 @@
-<h1>
-  <span>SQL Snippets</span>
-</h1>
+# SQL Snippets
  
 A curated collection of helpful SQL queries and functions, maintained by [Count](https://count.co).
 
@@ -10,53 +8,40 @@ All [contributions](./CONTRIBUTING.md) are very welcome - let's get useful SQL s
 ### [⁉️ Report a bug](https://github.com/count/sql-snippets/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBUG%5D+)
 ### [↣ Submit a pull request](https://github.com/count/sql-snippets/compare)
 
-<h1>
-  <img src="https://user-images.githubusercontent.com/34280721/123955453-89375900-d9a1-11eb-9af1-d236cf3c5313.png" width="25" height="32">
-  <span>BigQuery</span>
- </h1>
-
-- [Cumulative distribution functions](./bigquery/cdf.md)
-- [Compound growth rates](./bigquery/compound-growth-rates.md)
-- [Histogram bins](./bigquery/histogram-bins.md)
-- [JSON strings](./bigquery/json-strings.md)
-- [Median UDF](./bigquery/median-udf.md)
-- [Median](./bigquery/median.md)
-- [Moving averages](./bigquery/moving-average.md)
-- [Random sampling](./bigquery/random-sampling.md)
-- [Ranking](./bigquery/rank.md)
-- [Running totals](./bigquery/running-total.md)
-- [Unpivoting / melting](./bigquery/unpivot-melt.md)
-- [Year-on-year changes](./bigquery/yoy.md)
+## Categories
 
 ### Arrays
-- [Array to columns](./bigquery/array-to-columns.md)
-- [Filtering arrays](./bigquery/filtering-arrays.md)
-- [Generating arrays](./bigquery/generating-arrays.md)
-- [Get last array element](./bigquery/get-last-array-element.md)
-- [Transforming arrays](./bigquery/transforming-arrays.md)
+- [Array to columns](./bigquery/array-to-columns.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+- [Filtering arrays](./bigquery/filtering-arrays.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+- [Generating arrays](./bigquery/generating-arrays.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+- [Get last array element](./bigquery/get-last-array-element.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+- [Transforming arrays](./bigquery/transforming-arrays.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
 
 ### Dates and times
-- [Converting from strings](./bigquery/convert-string-datetimes.md)
-- [Converting to strings](./bigquery/convert-datetimes-string.md)
+- [Converting from strings](./bigquery/convert-string-datetimes.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+- [Converting to strings](./bigquery/convert-datetimes-string.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
 
 ### Regular expressions
-- [Parsing URLs](./bigquery/regex-parse-url.md)
-- [Validating emails](./bigquery/regex-email.md)
+- [Parsing URLs](./bigquery/regex-parse-url.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+- [Validating emails](./bigquery/regex-email.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
 
-## Also see
+### Searching
+- [Search for text in Stored Procedures](./mssql/search-stored-procedures.md) ![SQL Server](https://img.shields.io/badge/SQL%20Server-red)
+
+### Uncategorised
+- [Cumulative distribution functions](./bigquery/cdf.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+- [Compound growth rates](./bigquery/compound-growth-rates.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+- [Histogram bins](./bigquery/histogram-bins.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+- [JSON strings](./bigquery/json-strings.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+- [Median UDF](./bigquery/median-udf.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+- [Median](./bigquery/median.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+- [Moving averages](./bigquery/moving-average.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+- [Random sampling](./bigquery/random-sampling.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+- [Ranking](./bigquery/rank.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+- [Running totals](./bigquery/running-total.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+- [Unpivoting / melting](./bigquery/unpivot-melt.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+- [Year-on-year changes](./bigquery/yoy.md) ![BigQuery](https://img.shields.io/badge/BigQuery-blue)
+
+
+## Other resources
 - [bigquery-utils](https://github.com/GoogleCloudPlatform/bigquery-utils) - a BigQuery-specific collection of scripts
-
-<h1>
-  <img src="https://user-images.githubusercontent.com/34280721/124244139-8611a980-db16-11eb-86b2-f4f7acaad870.png" width="25" height="32">
-  <span>SQL Server</span>
- </h1>
-
- ### Searching
-- [Search for text in Stored Procedures](./mssql/search-stored-procedures.md)
-
-<h1>
-  <img src="https://user-images.githubusercontent.com/34280721/123956293-6ce7ec00-d9a2-11eb-93ff-22d545a1fb59.png" width="25" height="32">
-  <span>Snowflake</span>
- </h1>
-
-- Coming soon. Got a favourite snippet to contribute? Open an issue or submit a PR!
