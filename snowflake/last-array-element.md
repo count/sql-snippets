@@ -1,4 +1,6 @@
 # Get the last element of an array
+Explore this snippet with some demo data [here](https://count.co/n/rybQwRV3JJh?vm=e).
+
 
 
 # Description
