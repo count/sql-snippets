@@ -22,44 +22,42 @@ The colour of the badge is taken from the dominant colour of the database logo.
 -->
 
 ### Arrays
-- [Array to columns](./bigquery/array-to-columns.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)
-- [Filtering arrays](./bigquery/filtering-arrays.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
-- [Generating arrays](./bigquery/generating-arrays.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
-- [Get last array element](./bigquery/get-last-array-element.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
-- [Get last array element](./postgres/get-last-array-element.md) ![Postgres](https://img.shields.io/badge/Postgres-336791)
-- [Reverse array](./postgres/array-reverse.md) ![Postgres](https://img.shields.io/badge/Postgres-336791)
-- [Transforming arrays](./bigquery/transforming-arrays.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
+- Arrays to columns [![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)](./bigquery/array-to-columns.md)
+- Filtering arrays [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/filtering-arrays.md)
+- Generating arrays [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/generating-arrays.md) 
+- Get last array element [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/get-last-array-element.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/get-last-array-element.md)
+- Reverse array [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/array-reverse.md)
+- Transforming arrays [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/transforming-arrays.md) 
 
 ### Dates and times
-- [Converting from strings](./bigquery/convert-string-datetimes.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
-- [Converting to strings](./bigquery/convert-datetimes-string.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
+- Converting from strings [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/convert-string-datetimes.md)
+- Converting to strings [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/convert-datetimes-string.md)
 
 ### JSON
-- [JSON strings](./bigquery/json-strings.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
-- [JSON strings](./postgres/json-strings.md) ![Postgres](https://img.shields.io/badge/Postgres-336791)
+- Parsing JSON strings [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/json-strings.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/json-strings.md)
 
 
 ### Regular expressions
-- [Parsing URLs](./bigquery/regex-parse-url.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
-- [Validating emails](./bigquery/regex-email.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
+- Parsing URLs [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/regex-parse-url.md)
+- Validating emails [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/regex-email.md)
 
 ### Searching
-- [Search for text in Stored Procedures](./mssql/search-stored-procedures.md) ![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)
+- Search for text in Stored Procedures [![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)](./mssql/search-stored-procedures.md) 
 
 ### Window functions
-- [Moving averages](./bigquery/moving-average.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
-- [Running totals](./bigquery/running-total.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
-- [Year-on-year changes](./bigquery/yoy.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
+- Moving averages [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/moving-average.md)
+- Running totals [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/running-total.md)
+- Year-on-year changes [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/yoy.md)
 
 ### Uncategorised
-- [Cumulative distribution functions](./bigquery/cdf.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
-- [Compound growth rates](./bigquery/compound-growth-rates.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
-- [Histogram bins](./bigquery/histogram-bins.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
-- [Median UDF](./bigquery/median-udf.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
-- [Median](./bigquery/median.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
-- [Random sampling](./bigquery/random-sampling.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
-- [Ranking](./bigquery/rank.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
-- [Unpivoting / melting](./bigquery/unpivot-melt.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
+- Cumulative distribution functions [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/cdf.md)
+- Compound growth rates [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/compound-growth-rates.md)
+- Histogram bins [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/histogram-bins.md)
+- Median UDF [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/median-udf.md)
+- Median [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/median.md)
+- Random sampling [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/random-sampling.md)
+- Ranking [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/rank.md)
+- Unpivoting / melting [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/unpivot-melt.md)
 
 
 ## Other resources
