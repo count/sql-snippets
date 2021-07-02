@@ -16,6 +16,7 @@ Database badges
 The colour of the badge is taken from the dominant colour of the database logo.
 
 ![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)
+![Postgres](https://img.shields.io/badge/Postgres-336791)
 ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)
 -->
@@ -30,6 +31,11 @@ The colour of the badge is taken from the dominant colour of the database logo.
 ### Dates and times
 - [Converting from strings](./bigquery/convert-string-datetimes.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
 - [Converting to strings](./bigquery/convert-datetimes-string.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
+
+### JSON
+- [JSON strings](./bigquery/json-strings.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
+- [JSON strings](./postgres/json-strings.md) ![Postgres](https://img.shields.io/badge/Postgres-336791)
+
 
 ### Regular expressions
 - [Parsing URLs](./bigquery/regex-parse-url.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
@@ -47,7 +53,6 @@ The colour of the badge is taken from the dominant colour of the database logo.
 - [Cumulative distribution functions](./bigquery/cdf.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
 - [Compound growth rates](./bigquery/compound-growth-rates.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
 - [Histogram bins](./bigquery/histogram-bins.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
-- [JSON strings](./bigquery/json-strings.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
 - [Median UDF](./bigquery/median-udf.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
 - [Median](./bigquery/median.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
 - [Random sampling](./bigquery/random-sampling.md) ![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)
