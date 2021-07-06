@@ -27,7 +27,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 - Generating arrays [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/generating-arrays.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/generate-arrays.md)
 - Get last array element [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/get-last-array-element.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/get-last-array-element.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/last-array-element.md)
 - Reverse array [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/array-reverse.md)
-- Transforming arrays [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/transforming-arrays.md) 
+- Transforming arrays [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/transforming-arrays.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/transforming-arrays.md) 
 
 ### Dates and times
 - Converting from strings [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/convert-string-datetimes.md)
@@ -46,8 +46,8 @@ The colour of the badge is taken from the dominant colour of the database logo.
 
 ### Window functions
 - Moving averages [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/moving-average.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/moving-average.md)
-- Running totals [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/running-total.md)
-- Year-on-year changes [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/yoy.md)
+- Running totals [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/running-total.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/running-total.md)
+- Year-on-year changes [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/yoy.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/yoy.md)
 
 ### Uncategorised
 - Cumulative distribution functions [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/cdf.md)
@@ -57,7 +57,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 - Median [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/median.md)
 - Random sampling [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/random-sampling.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/random-sampling.md)
 - Ranking [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/rank.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/rank.md)
-- Unpivoting / melting [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/unpivot-melt.md)
+- Unpivoting / melting [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/unpivot-melt.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/unpivot-melt.md)
 
 
 ## Other resources
