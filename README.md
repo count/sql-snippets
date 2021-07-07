@@ -54,7 +54,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | Search for text in Stored Procedures | [![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)](./mssql/search-stored-procedures.md) |
 | <h3>Transformation</h3>| |
 | Unpivoting / melting | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/unpivot-melt.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/unpivot-melt.md) | 
-| Replace NULLs | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/replace-null.md) |
+| Replace NULLs | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/replace-null.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/replace-null.md) |
 | <h3>Window functions</h3>| |
 | Moving averages | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/moving-average.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/moving-average.md) |
 | Running totals | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/running-total.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/running-total.md) |
