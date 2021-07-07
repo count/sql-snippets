@@ -27,7 +27,12 @@ The colour of the badge is taken from the dominant colour of the database logo.
 - Generating arrays [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/generating-arrays.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/generate-arrays.md)
 - Get last array element [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/get-last-array-element.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/get-last-array-element.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/last-array-element.md)
 - Reverse array [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/array-reverse.md)
-- Transforming arrays [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/transforming-arrays.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/transforming-arrays.md) 
+- Transforming arrays [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/transforming-arrays.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/transforming-arrays.md)
+
+### Charts
+- Bar chart [![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)](./bigquery/bar-chart.md)
+- Horizontal bar chart [![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)](./bigquery/horizontal-bar.md)
+- Time series [![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)](./bigquery/timeseries.md)
 
 ### Dates and times
 - Converting from strings [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/convert-string-datetimes.md)
