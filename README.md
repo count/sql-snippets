@@ -21,6 +21,15 @@ The colour of the badge is taken from the dominant colour of the database logo.
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)
 -->
 
+### Analytics
+- Cumulative distribution functions [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/cdf.md)
+- Compound growth rates [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/compound-growth-rates.md)
+- Histogram bins [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/histogram-bins.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/histogram-bins.md)
+- Median [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/median.md)
+- Median UDF [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/median-udf.md)
+- Random sampling [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/random-sampling.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/random-sampling.md)
+- Ranking [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/rank.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/rank.md)
+
 ### Arrays
 - Arrays to columns [![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)](./bigquery/array-to-columns.md)
 - Filtering arrays [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/filtering-arrays.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/filtering-arrays.md)
@@ -49,23 +58,15 @@ The colour of the badge is taken from the dominant colour of the database logo.
 - Validating emails [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/regex-email.md)
 
 ### Searching
-- Search for text in Stored Procedures [![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)](./mssql/search-stored-procedures.md) 
+- Search for text in Stored Procedures [![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)](./mssql/search-stored-procedures.md)
+
+### Transformation
+- Unpivoting / melting [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/unpivot-melt.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/unpivot-melt.md)
 
 ### Window functions
 - Moving averages [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/moving-average.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/moving-average.md)
 - Running totals [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/running-total.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/running-total.md)
 - Year-on-year changes [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/yoy.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/yoy.md)
-
-### Uncategorised
-- Cumulative distribution functions [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/cdf.md)
-- Compound growth rates [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/compound-growth-rates.md)
-- Histogram bins [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/histogram-bins.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/histogram-bins.md)
-- Median UDF [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/median-udf.md)
-- Median [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/median.md)
-- Random sampling [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/random-sampling.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/random-sampling.md)
-- Ranking [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/rank.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/rank.md)
-- Unpivoting / melting [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/unpivot-melt.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/unpivot-melt.md)
-
 
 ## Other resources
 - [bigquery-utils](https://github.com/GoogleCloudPlatform/bigquery-utils) - a BigQuery-specific collection of scripts
