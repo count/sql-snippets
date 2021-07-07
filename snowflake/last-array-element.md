@@ -1,9 +1,9 @@
 # Get the last element of an array
+
 Explore this snippet with some demo data [here](https://count.co/n/rybQwRV3JJh?vm=e).
 
-
-
 # Description
+
 You can use [ARRAY_SLICE](https://docs.snowflake.com/en/sql-reference/functions/array_slice.html) and [ARRAY_SIZE](https://docs.snowflake.com/en/sql-reference/functions/array_size.html) to find the last element in an Array in Snowflake: 
 
 ```sql
@@ -15,5 +15,5 @@ from
   )
 ```
 | LAST_ELEMENT |
-| --- |
-| [4] |
+| ------------ |
+| [4]          |
