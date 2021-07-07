@@ -1,5 +1,5 @@
 # Array to Column
-Explore this snippet with some demo data [here](https://count.co/n/pQ914qtFlKo).
+Explore this snippet with some demo data [here](https://count.co/n/pQ914qtFlKo?vm=e).
 
 # Description
 Taking a BigQuery ARRAY and creating a column for each value is commonly used when working with 'wide' data. The following snippet will let you quickly take an array column and create a row for each value.
