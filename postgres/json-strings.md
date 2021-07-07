@@ -30,6 +30,10 @@ select
 from json
 ```
 
+| root                                                | a | b     | c                       | c_first_str | c_first_num | c_third         | d      |
+| --------------------------------------------------- | - | ----- | ----------------------- | ----------- | ----------- | --------------- | ------ |
+| { "a": 1, "b": "bee", "c": [4, 5, { "d": [6, 7] }]} | 1 | "bee" | [4, 5, { "d": [6, 7] }] | 4           | 4           | { "d": [6, 7] } |	[6, 7] |
+
 
 ## JSON_EXTRACT_PATH
 As an alternative to the operator approach, the JSON_EXTRACT_PATH function works by specifying the keys of the JSON fields to be extracted:
@@ -46,3 +50,7 @@ select
   ]
 }', 'c', '2', 'd', '0')
 ```
+
+| json_extract_path |
+| ----------------- |
+| 6                 |
