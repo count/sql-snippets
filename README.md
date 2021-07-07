@@ -55,7 +55,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | Search for text in Stored Procedures | [![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)](./mssql/search-stored-procedures.md) |
 | <h3>Transformation</h3>| |
 | Unpivoting / melting | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/unpivot-melt.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/unpivot-melt.md) | 
-| Replace NULLs | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/replace-null.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/replace-null.md) |
+| Replace NULLs | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/replace-null.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/replace-null.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/replace-null.md) |
 | Replace empty string with NULL | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/replace-empty-strings-null.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/replace-empty-strings-null.md) |
 | Counting NULLs | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/count-nulls.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/count-nulls.md) |
 | <h3>Window functions</h3>| |
