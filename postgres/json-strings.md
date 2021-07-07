@@ -1,6 +1,6 @@
 # Extracting values from JSON strings
 
-Explore this snippet [here](https://count.co/n/sL7bEFcg11Z?vm=e).
+Explore this snippet [here](https://count.co/n/woUuvi105YA?vm=e).
 
 # Description
 Postgres has supported lots of JSON functionality for a while now - see some examples in the [official documentation](https://www.postgresql.org/docs/current/functions-json.html).
