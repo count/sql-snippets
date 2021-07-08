@@ -12,7 +12,7 @@ SELECT
    AGG_FN(<COLUMN>) as metric,
    <DATETIME_COLUMN> as datetime
 FROM 
-   `PROJECT.SCHEMA.TABLE>`
+   <TABLE>
 GROUP BY
    datetime
 ```

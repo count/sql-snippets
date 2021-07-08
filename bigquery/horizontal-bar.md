@@ -12,10 +12,11 @@ SELECT
    AGG_FN(<COLUMN>) as metric,
    <GROUP_COLUMN> as group
 FROM 
-   `PROJECT.SCHEMA.TABLE>`
+   <PROJECT.SCHEMA.TABLE>
 GROUP BY
    group
 ```
+
 where: 
 - `AGG_FN` is an aggregation function like `SUM`, `AVG`, `COUNT`, `MAX`, etc.
 - `COLUMN` is the column you want to aggregate to get your metric. Make sure this is a numeric column.

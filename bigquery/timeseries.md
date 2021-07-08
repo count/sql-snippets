@@ -12,7 +12,7 @@ SELECT
    AGG_FN(<COLUMN>) as metric,
    <DATETIME_COLUMN> as datetime
 FROM 
-   `PROJECT.SCHEMA.TABLE>`
+   <PROJECT.SCHEMA.TABLE>
 GROUP BY
    datetime
 ```
@@ -23,7 +23,7 @@ where:
 
 # Usage
 
-In this example with some spotify data, we'll look at the total daily streams over time:
+In this example with some Spotify data, we'll look at the total daily streams over time:
 
 ```sql
 select

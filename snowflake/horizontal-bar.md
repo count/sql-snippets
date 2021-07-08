@@ -12,7 +12,7 @@ SELECT
    AGG_FN(<COLUMN>) as metric,
    <GROUP_COLUMN> as group
 FROM 
-   `PROJECT.SCHEMA.TABLE>`
+   <TABLE>
 GROUP BY
    group
 ```

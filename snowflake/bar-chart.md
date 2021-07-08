@@ -1,7 +1,9 @@
 # Bar Chart
+
 Explore this snippet with some demo data [here](https://count.co/n/CmSsFFvSJfz?vm=e).
 
 # Description
+
 Bar charts are perhaps the most common charts used in data analysis. They have one categorical or temporal axis, and one numerical axis. 
 You just need a simple GROUP BY to get all the elements you need for a bar chart: 
 
@@ -10,10 +12,11 @@ SELECT
    AGG_FN(<COLUMN>) as metric,
    <CATEGORICAL_COLUMN> as cat
 FROM 
-   `PROJECT.SCHEMA.TABLE>`
+   <TABLE>
 GROUP BY
    cat
 ```
+
 where: 
 - `AGG_FN` is an aggregation function like `SUM`, `AVG`, `COUNT`, `MAX`, etc.
 - `COLUMN` is the column you want to aggregate to get your metric. Make sure this is a numeric column.
