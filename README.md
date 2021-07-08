@@ -24,6 +24,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | <h3>Analytics</h3> | |
 | Cumulative distribution functions | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/cdf.md) |
 | Compound growth rates | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/compound-growth-rates.md) |
+| Generate a uniform distribution | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/uniform-distribution.md) |
 | Histogram bins | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/histogram-bins.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/histogram-bins.md) |
 | Median | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/median.md) |
 | Median UDF | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/median-udf.md) |
