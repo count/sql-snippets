@@ -25,39 +25,39 @@ where:
 - `XAXIS_COLUMN` is the group you want to show on the x-axis. Make sure this is a date, datetime, timestamp, or time column (not a number)
 - `COLOR_COLUMN` is the group you want to show as different colors of your bars. 
 # Usage
-In this example with some tennis data we'll see what percentage of matches won for the world's top tennis players come on different surfaces. 
+In this example with some London weather data to see what percentage of days in each month are of each weather type (e.g. rain, sun).
 
 ```sql
 -- a
-select count(matches_partitioned.match_num) matches_won,
-winner_name player, 
-surface 
-from tennis.matches_partitioned
-where winner_name in ('Rafael Nadal','Serena Williams', 'Roger Federer','Novak Djokovic')
-group by player, surface
+select count(DATE) days,
+month(date) month, 
+WEATHER 
+from PUBLIC.LONDON_WEATHER
+group by month,WEATHER
+order by month
 ```
-|matches_won| player| surface|
+|DAYS| MONTH| WEATHER|
 |-----------|-------|--------|
-|95| Novak Djokovic | Grass|
-|621| Novak Djokovic | Hard |
-|230 | Novak Djokovic | Clay|
-|9 | Novak Djokovic | Carpet|
+|33| 1 | sunny|
+|16| 1 | fog |
+|74 | 1 | rain|
 |....|....|....|
 
 ```sql
 -- b
-select count(matches_partitioned.match_num) matches_played,
-winner_name player
-from tennis.matches_partitioned
-where winner_name in ('Rafael Nadal','Serena Williams', 'Roger Federer','Novak Djokovic')
-group by player
+select count(DATE) days,
+month(date) month
+from PUBLIC.LONDON_WEATHER
+group by month
+order by month
 ```
-|matches_played| player|
+|DAYS| MONTH|
 |-----------|-------|
-|955| Novak Djokovic |
-|1250| Roger Federer |
-|1016 | Rafael Nadal |
-|846 | Serena Williams | 
+|123| 1 |
+|113| 2 |
+|123 | 3 |
+|120 | 4 | 
+| ... | ... |
 
 ```sql
 -- c
