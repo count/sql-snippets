@@ -41,6 +41,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | Horizontal bar chart | [![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)](./bigquery/horizontal-bar.md) |
 | Time series | [![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)](./bigquery/timeseries.md) |
 | 100% stacked bar Chart | [![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)](./bigquery/100-stacked-bar.md) |
+| Heat Map | [![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)](./bigquery/heatmap.md) |
 | <h3>Dates and times</h3>| |
 | Converting from strings | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/convert-string-datetimes.md) |
 | Converting to strings | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/convert-datetimes-string.md) |
