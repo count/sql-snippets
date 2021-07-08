@@ -1,4 +1,4 @@
-# Horizontal Bar Chart
+# Horizontal bar chart
 
 Explore this snippet with some demo data [here](https://count.co/n/y9YkufdWrwf?vm=e).
 

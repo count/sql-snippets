@@ -1,4 +1,4 @@
-# Bar Chart
+# Bar chart
 
 Explore this snippet with some demo data [here](https://count.co/n/KCUlCzlJDHK?vm=e).
 

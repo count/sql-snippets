@@ -1,4 +1,4 @@
-# Stacked Bar & Line Chart
+# Stacked bar and line chart
 
 Explore this snippet with some demo data [here](https://count.co/n/ze9Y5H2r4mu?vm=e).
 

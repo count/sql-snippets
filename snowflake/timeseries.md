@@ -1,4 +1,4 @@
-# Time Series Line Chart
+# Time series line chart
 
 Explore this snippet with some demo data [here](https://count.co/n/ScDndvwcc9x?vm=e).
 

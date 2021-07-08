@@ -1,4 +1,4 @@
-# Heat Maps
+# Heat maps
 
 Explore this snippet with some demo data [here](https://count.co/n/Gw3T9qTRRe7?vm=e).
 

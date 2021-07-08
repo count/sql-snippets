@@ -1,4 +1,4 @@
-# 100% Bar Chart
+# 100% bar chart
 
 Explore this snippet with some demo data [here](https://count.co/n/qMn2uMsl0rz?vm=e).
 
