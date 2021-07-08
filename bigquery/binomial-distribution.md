@@ -43,7 +43,8 @@ probs as (
 ),
 after_rejection as (
   -- If the random number for this value of k is too high, reject it
-  select k from probs where u <= threshold
+  -- Note - the binomial PDF is normalised to a max value of 1 to improve the sampling efficiency
+  select k from probs where u <= threshold / (select max(threshold) from probs)
 )
 
 select * from after_rejection
