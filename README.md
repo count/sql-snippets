@@ -7,6 +7,7 @@ All [contributions](./CONTRIBUTING.md) are very welcome - let's get useful SQL s
 ### [🙋‍♀️ Request a snippet](https://github.com/count/sql-snippets/issues/new?assignees=&labels=help+wanted&template=snippet-request.md&title=%5BSNIPPET+REQUEST%5D+)
 ### [⁉️ Report a bug](https://github.com/count/sql-snippets/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBUG%5D+)
 ### [↣ Submit a pull request](https://github.com/count/sql-snippets/compare)
+### [💌 Get weekly updates](https://sqlsnippets.substack.com/p/coming-soon?r=itwes&utm_campaign=post&utm_medium=web&utm_source=copy)
 
 <!--
 Database badges
