@@ -7,7 +7,7 @@ Explore this snippet with some demo data [here](https://count.co/n/UPNSCO974GQ?v
 To transform elements of an array (often known as mapping over an array), it is possible to gain access to array elements using the `FLATTEN` function
 
 ```sql
-with data as (select [1,2,3] nums, ['a', 'b', 'c'] strs)
+with data as (select array_construct(1,2,3) nums, array_construct('a', 'b', 'c') strs)
 
 select
    array_agg(x.value * 2 + 1) nums_transformed, -- Transformation function
