@@ -7,16 +7,17 @@ Explore this snippet [here](https://count.co/n/Fzyv9i4SP2B?vm=e).
 An essential part of cleaning a new data source is deciding how to treat missing values. The [`CASE`](https://www.postgresql.org/docs/current/functions-conditional.html#FUNCTIONS-CASE) statement can help with replacing empty values with something else:
 
 ```sql
-with data as (
-  select * from (values ('a'), ('b'), (''), ('d')) as data (str)
+WITH data AS (
+  SELECT *
+  FROM (VALUES ('a'), ('b'), (''), ('d')) AS data (str)
 )
 
-select
-  iff(length(str) = 0, null, str) str
-from data
+SELECT
+  CASE WHEN LENGTH(str) != 0 THEN str END AS str
+FROM data;
 ```
 
-| STR  |
+| str  |
 | ---- |
 | a    |
 | b    |
