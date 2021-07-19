@@ -28,7 +28,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | Compound growth rates | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/compound-growth-rates.md) |
 | Generate a binomial distribution | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/binomial-distribution.md) |
 | Generate a uniform distribution | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/uniform-distribution.md) |
-| Histogram bins | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/histogram-bins.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/histogram-bins.md) |
+| Histogram bins | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/histogram-bins.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/histogram-bins.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/histogram-bins.md) |
 | Median | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/median.md) |
 | Median UDF | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/median-udf.md) |
 | Random sampling | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/random-sampling.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/random-sampling.md) |
