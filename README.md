@@ -1,9 +1,10 @@
 # SQL Snippets
  
-A curated collection of helpful SQL queries and functions, maintained by [Count](https://count.co).
+A curated collection of helpful SQL queries and functions, maintained by [Count](https://count.co). These snippets are also mirrored at a [community forum](https://sql-snippets.count.co).
 
 All [contributions](./CONTRIBUTING.md) are very welcome - let's get useful SQL snippets out of Slack channels and Notion pages, and collect them as a community resource.
 
+### [💬 Join the discussion](https://sql-snippets.count.co)
 ### [🙋‍♀️ Request a snippet](https://github.com/count/sql-snippets/issues/new?assignees=&labels=help+wanted&template=snippet-request.md&title=%5BSNIPPET+REQUEST%5D+)
 ### [⁉️ Report a bug](https://github.com/count/sql-snippets/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBUG%5D+)
 ### [↣ Submit a pull request](https://github.com/count/sql-snippets/compare)
