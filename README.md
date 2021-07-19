@@ -51,6 +51,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | Converting from strings | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/convert-string-datetimes.md) |
 | Converting to strings | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/convert-datetimes-string.md) |
 | Local Timezone to UTC | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/localtz-to-utc.md) |
+| Converting epoch/unix to timestamp | [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/convert-epoch-to-timestamp.md) |
 | <h3>Geography</h3>| |
 | Calculating the distance between two points | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/geographical-distance.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/geographical-distance.md) |
 | <h3>JSON</h3>| |
@@ -65,6 +66,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | Replace NULLs | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/replace-null.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/replace-null.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/replace-null.md) |
 | Replace empty string with NULL | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/replace-empty-strings-null.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/replace-empty-strings-null.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/replace-empty-strings-null.md) |
 | Counting NULLs | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/count-nulls.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/count-nulls.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/count-nulls.md) |
+| Splitting single columns into rows | [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/split-column-to-rows.md) |
 | <h3>Window functions</h3>| |
 | Moving averages | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/moving-average.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/moving-average.md) |
 | Running totals | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/running-total.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/running-total.md) |
