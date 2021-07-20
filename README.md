@@ -70,7 +70,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | Counting NULLs | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/count-nulls.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/count-nulls.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/count-nulls.md) |
 | Splitting single columns into rows | [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/split-column-to-rows.md) |
 | <h3>Window functions</h3>| |
-| Moving averages | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/moving-average.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/moving-average.md) |
+| Moving averages | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/moving-average.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/moving-average.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/moving-average.md) |
 | Running totals | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/running-total.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/running-total.md) |
 | Year-on-year changes | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/yoy.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/yoy.md) |
 | Creating equal-sized buckets | [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/ntile.md) |
