@@ -24,7 +24,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | Snippet | Databases |
 | ------- | --------- |
 | <h3>Analytics</h3> | |
-| Cumulative distribution functions | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/cdf.md) |
+| Cumulative distribution functions | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/cdf.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/cume_dist.md) |
 | Compound growth rates | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/compound-growth-rates.md) |
 | Generate a binomial distribution | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/binomial-distribution.md) |
 | Generate a uniform distribution | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/uniform-distribution.md) |
