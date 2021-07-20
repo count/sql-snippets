@@ -1,4 +1,5 @@
 # Moving Average
+View an interactive version of this snippet [here](https://count.co/n/u5jbJD3MDX6?vm=e).
 
 # Description
 Moving averages are quite simple to calculate in Postgres, using the `AVG` window function. Here is an example query with a 7-day moving average over a total of 31 days, calculated for 1 dimension (colour):
