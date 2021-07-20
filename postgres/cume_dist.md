@@ -1,4 +1,5 @@
 # Cumulative Distribution
+View an interactive snippet [here](https://count.co/n/1fymVJoCPVM?vm=e).
 
 # Description
 Cumulative Distribution is a method for analysing the distribution of a quantity, similar to histograms. They show, for each value of a quantity, what fraction of rows are smaller or greater.
