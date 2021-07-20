@@ -1,4 +1,5 @@
 # Creating equal-sized buckets using ntile
+View an interactive version of this snippet [here](https://count.co/n/IgJwlWSujF0?vm=e).
 
 # Description
 When you want to create equal sized groups (i.e. buckets) of rows, there is a SQL function for that too.
