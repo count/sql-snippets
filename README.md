@@ -53,6 +53,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | Converting to strings | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/convert-datetimes-string.md) |
 | Local Timezone to UTC | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/localtz-to-utc.md) |
 | Converting epoch/unix to timestamp | [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/convert-epoch-to-timestamp.md) |
+| Generate timeseries | [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/generate-timeseries.md) |
 | <h3>Geography</h3>| |
 | Calculating the distance between two points | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/geographical-distance.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/geographical-distance.md) |
 | <h3>JSON</h3>| |
