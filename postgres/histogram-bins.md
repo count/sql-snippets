@@ -1,4 +1,5 @@
 # Histogram Bins
+View an interactive version of this snippet [here](https://count.co/n/27wc3pvc5R0?vm=e).
 
 # Description
 Creating histograms using SQL can be tricky. This template will let you quickly create the bins needed to create a histogram:
