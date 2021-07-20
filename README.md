@@ -24,7 +24,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | Snippet | Databases |
 | ------- | --------- |
 | <h3>Analytics</h3> | |
-| Cumulative distribution functions | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/cdf.md) |
+| Cumulative distribution functions | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/cdf.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/cume_dist.md) |
 | Compound growth rates | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/compound-growth-rates.md) |
 | Generate a binomial distribution | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/binomial-distribution.md) |
 | Generate a uniform distribution | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/uniform-distribution.md) |
@@ -32,7 +32,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | Median | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/median.md) |
 | Median UDF | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/median-udf.md) |
 | Random sampling | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/random-sampling.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/random-sampling.md) |
-| Ranking | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/rank.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/rank.md) |
+| Ranking | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/rank.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/rank.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/rank.md) |
 | TF-IDF | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/tf-idf.md) |
 | <h3>Arrays</h3>| |
 | Arrays to columns | [![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)](./bigquery/array-to-columns.md) |
@@ -53,13 +53,14 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | Converting to strings | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/convert-datetimes-string.md) |
 | Local Timezone to UTC | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/localtz-to-utc.md) |
 | Converting epoch/unix to timestamp | [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/convert-epoch-to-timestamp.md) |
+| Generate timeseries | [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/generate-timeseries.md) |
 | <h3>Geography</h3>| |
 | Calculating the distance between two points | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/geographical-distance.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/geographical-distance.md) |
 | <h3>JSON</h3>| |
 | Parsing JSON strings | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/json-strings.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/json-strings.md) |
 | <h3>Regular expressions</h3>| |
-| Parsing URLs | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/regex-parse-url.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/parse-url.md) |
-| Validating emails | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/regex-email.md) |
+| Parsing URLs | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/regex-parse-url.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/parse-url.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/regex-parse-url.md) |
+| Validating emails | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/regex-email.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/regex-email.md) |
 | <h3>Searching</h3>| |
 | Search for text in Stored Procedures | [![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)](./mssql/search-stored-procedures.md) |
 | <h3>Transformation</h3>| |
@@ -69,9 +70,10 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | Counting NULLs | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/count-nulls.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/count-nulls.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/count-nulls.md) |
 | Splitting single columns into rows | [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/split-column-to-rows.md) |
 | <h3>Window functions</h3>| |
-| Moving averages | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/moving-average.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/moving-average.md) |
+| Moving averages | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/moving-average.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/moving-average.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/moving-average.md) |
 | Running totals | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/running-total.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/running-total.md) |
 | Year-on-year changes | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/yoy.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/yoy.md) |
+| Creating equal-sized buckets | [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/ntile.md) |
 
 ## Other resources
 - [bigquery-utils](https://github.com/GoogleCloudPlatform/bigquery-utils) - a BigQuery-specific collection of scripts
