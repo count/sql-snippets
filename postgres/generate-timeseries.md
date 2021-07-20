@@ -1,4 +1,5 @@
 # Generate a timeseries of dates and/or times
+View an interactive version of this snippet [here](https://count.co/n/Du9nUudW9MH?vm=e).
 
 # Description
 
