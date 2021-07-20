@@ -1,4 +1,6 @@
 # Split a single column into separate rows
+View an interactive version of this snippet [here](https://count.co/n/lF1dUz66TuF?vm=e).
+
 
 # Description
 
