@@ -1,4 +1,5 @@
 # Calculating the Median
+View an interactive version of this snippet [here](https://count.co/n/QH2mMBK2RJu?vm=e).
 
 # Description
 Postgres does not have an explicit `MEDIAN` function. The following snippet will show you how to calculate the median of any column.
