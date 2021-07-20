@@ -1,4 +1,6 @@
 # RegEx: Validate Email Addresses
+View an interactive version of this snippet [here](https://count.co/n/QLRHXD9dVRG?vm=e).
+
 
 # Description
 The only real way to validate an email address is to send a request to it and observe the response, but for the purposes of analytics it's often useful to strip out rows including malformed email addresses.
