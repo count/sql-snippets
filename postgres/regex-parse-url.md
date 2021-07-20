@@ -1,10 +1,12 @@
 # RegEx: Parse URL String
+View an interactive version of this snippet [here](https://count.co/n/rpoUsuw0s3r?vm=e).
+
 
 # Description
 URL strings are a very valuable source of information, but trying to get your RegEx exactly right is a pain. 
 This re-usable snippet can be applied to any URL to extract the exact part you're after. 
 
-#Snippet ✂️
+# Snippet ✂️
 
 ```sql
 SELECT
