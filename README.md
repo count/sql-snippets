@@ -66,6 +66,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | Parsing URLs | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/regex-parse-url.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/parse-url.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/regex-parse-url.md) |
 | Validating emails | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/regex-email.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/regex-email.md) |
 | Extract repeating words |  [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/repeating-words.md) |
+| Split on Uppercase characters | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/split-uppercase.md) |
 | <h3>Searching</h3>| |
 | Search for text in Stored Procedures | [![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)](./mssql/search-stored-procedures.md) |
 | <h3>Transformation</h3>| |
