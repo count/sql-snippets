@@ -33,6 +33,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | Median UDF | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/median-udf.md) |
 | Outlier detection: MAD method | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/outliers-mad.md) |
 | Outlier detection: Standard Deviation method | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/outliers-stdev.md) |
+| Outlier detection: Z-score method | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/outliers-z.md) |
 | Random Between | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/rand_between.md) |
 | Random sampling | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/random-sampling.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/random-sampling.md) |
 | Ranking | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/rank.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/rank.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/rank.md) |
