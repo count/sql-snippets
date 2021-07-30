@@ -46,31 +46,7 @@ where:
 
 ## Example
 
-```sql
-SELECT
-   data.*,
-   case
-      when <OUTLIER_COLUMN> between mean - 3 * stdev and mean + 3 * stdev 
-         then 'not outlier'
-      else 'outlier'
-   end label,
-   mean - <SIGMAS> * stdev lower_bound,
-   mean + <SIGMAS> * stdev upper_bound
-FROM data
-CROSS JOIN 
-   (
-    SELECT
-      avg(<OUTLIER_COLUMN>) mean,
-      stddev_samp(data.streams<OUTLIER_COLUMN>    
-    FROM <TABLE> AS data ) mean_sd
-ORDER BY label DESC
-```
-where:
-- `<OTHER_COLUMNS>`: Columns selected other than the outlier column
-- `<OUTLIER_COLUMN>`: Column name for outlier
-- `<SIGMAS>`: Number of standard deviations to identify the outliers (suggested: 3)
 
-#### Z Score Method Outliers
 ```sql
 select find_z.*,
 case when abs(z_score) >=abs(1.96) then 'outlier' else 'not outlier' end label
