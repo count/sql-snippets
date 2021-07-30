@@ -31,7 +31,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | Histogram bins | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/histogram-bins.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/histogram-bins.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/histogram-bins.md) |
 | Median | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/median.md) |
 | Median UDF | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/median-udf.md) |
-| Pivot | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/pivot.md) |
+| Outlier detection: MAD method | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/outliers-mad.md) |
 | Random Between | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/rand_between.md) |
 | Random sampling | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/random-sampling.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/random-sampling.md) |
 | Ranking | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/rank.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/rank.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/rank.md) |
@@ -66,6 +66,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | <h3>Searching</h3>| |
 | Search for text in Stored Procedures | [![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)](./mssql/search-stored-procedures.md) |
 | <h3>Transformation</h3>| |
+| Pivot | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/pivot.md) |
 | Unpivoting / melting | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/unpivot-melt.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/unpivot-melt.md) | 
 | Replace NULLs | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/replace-null.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/replace-null.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/replace-null.md) |
 | Replace empty string with NULL | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/replace-empty-strings-null.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/replace-empty-strings-null.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/replace-empty-strings-null.md) |
