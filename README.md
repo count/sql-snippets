@@ -32,7 +32,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | Median | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/median.md) |
 | Median UDF | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/median-udf.md) |
 | Pivot | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/pivot.md) |
-| Random Between | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/rand_beetween.md) |
+| Random Between | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/rand_between.md) |
 | Random sampling | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/random-sampling.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/random-sampling.md) |
 | Ranking | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/rank.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/rank.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/rank.md) |
 | TF-IDF | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/tf-idf.md) |
