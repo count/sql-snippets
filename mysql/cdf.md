@@ -18,21 +18,22 @@ where
 - `table` - the table name
 # Example
 
-Using total Spotify streams as an example data source, let's identify:
-- `table` - this is called `raw`
-- `quantity` - this is the column `streams`
-
-then the query becomes:
 
 ```sql
-select
-  (row_number() over (order by streams asc)) / (select count(*) from raw) frac,
-  streams,
-from raw
+with data as (
+  select  1 student_id,  97 score union all 
+  select 2 student_id, 93 score union all 
+  select 3 student_id, 76 score union all 
+  select 4 student_id, 82 score union all 
+  select 5 student_id, 77 score
+)
+select student_id, score, (row_number() over (order by score asc)) / (select count(*) from data) frac
+from data
 ```
-| frac      | streams |
-| ----------- | ----------- |
-| 0      | 374359       |
-| 0   | 375308        |
-| ...   | ...        |
-| 1   | 7778950        |
+| student_id      | score | frac |
+| ----------- | ----------- | ---- |
+|3 | 76 | 0.2|
+| 5| 77 | 0.4 |
+|4 | 82 | 0.6|
+|2 | 93 | 0.8|
+|1|97 | 1|
