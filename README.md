@@ -48,6 +48,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | Transforming arrays | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/transforming-arrays.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/transforming-arrays.md) |
 | UDF: Least non-null value in array |  [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/least-udf.md) |
 | Greatest/Least value in array |  [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/least-array.md) |
+| UDF: Sort Array|  [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/udf-sort-array.md) |
 | <h3>Charts</h3>| |
 | Bar chart | [![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)](./bigquery/bar-chart.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/bar-chart.md) |
 | Horizontal bar chart | [![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)](./bigquery/horizontal-bar.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/horizontal-bar.md) |
