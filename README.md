@@ -63,6 +63,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | Converting epoch/unix to timestamp | [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/convert-epoch-to-timestamp.md) |
 | Generate timeseries | [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/generate-timeseries.md) |
 | Last day of the month | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/last-day.md) |
+| Last X days |  [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/last-x-days.md) |
 | <h3>Geography</h3>| |
 | Calculating the distance between two points | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/geographical-distance.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/geographical-distance.md) |
 | <h3>JSON</h3>| |
