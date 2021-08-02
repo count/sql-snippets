@@ -57,6 +57,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | Heat map | [![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)](./bigquery/heatmap.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/heatmap.md)  |
 | Stacked bar and line chart | [![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)](./bigquery/stacked-bar-line.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/stacked-bar-line.md)  |
 | <h3>Dates and times</h3>| |
+| Date/Time Formatting One Pager|  [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/dt-formatting.md) |
 | Converting from strings | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/convert-string-datetimes.md) |
 | Converting to strings | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/convert-datetimes-string.md) |
 | Local Timezone to UTC | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/localtz-to-utc.md) |
