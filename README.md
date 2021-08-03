@@ -16,6 +16,7 @@ Database badges
 The colour of the badge is taken from the dominant colour of the database logo.
 
 ![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)
+![MySQL](https://img.shields.io/badge/MySQL-F29111)
 ![Postgres](https://img.shields.io/badge/Postgres-336791)
 ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)
@@ -31,7 +32,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | Generate a uniform distribution | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/uniform-distribution.md) |
 | Histogram bins | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/histogram-bins.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/histogram-bins.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/histogram-bins.md) |
 | Median | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/median.md) |
-| Median UDF | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/median-udf.md) |
+| Median (UDF) | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/median-udf.md) |
 | Outlier detection: MAD method | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/outliers-mad.md) |
 | Outlier detection: Standard Deviation method | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/outliers-stdev.md) |
 | Outlier detection: Z-score method | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/outliers-z.md) |
@@ -46,9 +47,9 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | Get last array element | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/get-last-array-element.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/get-last-array-element.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/last-array-element.md) |
 | Reverse array | [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/array-reverse.md) |
 | Transforming arrays | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/transforming-arrays.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/transforming-arrays.md) |
-| UDF: Least non-null value in array |  [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/least-udf.md) |
+| Least non-null value in array (UDF) |  [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/least-udf.md) |
 | Greatest/Least value in array |  [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/least-array.md) |
-| UDF: Sort Array|  [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/udf-sort-array.md) |
+| Sort Array (UDF) |  [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/udf-sort-array.md) |
 | <h3>Charts</h3>| |
 | Bar chart | [![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)](./bigquery/bar-chart.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/bar-chart.md) |
 | Horizontal bar chart | [![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)](./bigquery/horizontal-bar.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/horizontal-bar.md) |
@@ -75,7 +76,8 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | Extract repeating words |  [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/repeating-words.md) |
 | Split on Uppercase characters | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/split-uppercase.md) |
 | Replace multple conditions | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/replace-multiples.md) |
-| CONCAT with NULLS |  [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/concat-nulls.md.md) |
+| CONCAT with NULLs |  [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/concat-nulls.md) |
+| Capitalize initial letters (UDF) |  [![MySQL](https://img.shields.io/badge/MySQL-F29111)](./mysql/initcap-udf.md) |
 | <h3>Searching</h3>| |
 | Search for text in Stored Procedures | [![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)](./mssql/search-stored-procedures.md) |
 | <h3>Transformation</h3>| |
