@@ -27,7 +27,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | <h3>Analytics</h3> | |
 | Cohort analysis |  [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/cohort-analysis.md) |
 | Cumulative distribution functions | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/cdf.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/cume_dist.md) [![MySQL](https://img.shields.io/badge/MySQL-F29111)](./mysql/cdf.md)|
-| Compound growth rates | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/compound-growth-rates.md) |
+| Compound growth rates | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/compound-growth-rates.md) [![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)](./mssql/compound-growth-rates.md) |
 | Generate a binomial distribution | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/binomial-distribution.md) |
 | Generate a uniform distribution | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/uniform-distribution.md) |
 | Histogram bins | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/histogram-bins.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/histogram-bins.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/histogram-bins.md) |
