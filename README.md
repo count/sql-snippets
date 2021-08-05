@@ -89,7 +89,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | Splitting single columns into rows | [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/split-column-to-rows.md) |
 | Latest Row (deduplicate) | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/latest-row.md) |
 | <h3>Window functions</h3>| |
-| First row of each group | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/first-row-of-group.md) |
+| First row of each group | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/first-row-of-group.md) [![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)](./mssql/first-row-of-group.md) |
 | Moving averages | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/moving-average.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/moving-average.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/moving-average.md) |
 | Running totals | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/running-total.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/running-total.md) |
 | Year-on-year changes | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/yoy.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/yoy.md) |
