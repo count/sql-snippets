@@ -57,6 +57,9 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | 100% stacked bar chart | [![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)](./bigquery/100-stacked-bar.md ) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/100-stacked-bar.md) |
 | Heat map | [![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)](./bigquery/heatmap.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/heatmap.md)  |
 | Stacked bar and line chart | [![BigQuery](https://img.shields.io/badge/BigQuery-4387FB)](./bigquery/stacked-bar-line.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/stacked-bar-line.md)  |
+| <h3>Database metadata</h3>| |
+| Check if column exists in table | [![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)](./mssql/check-column-is-accessible.md) |
+| Search for text in Stored Procedures | [![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)](./mssql/search-stored-procedures.md) |
 | <h3>Dates and times</h3>| |
 | Date/Time Formatting One Pager|  [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/dt-formatting.md) |
 | Converting from strings | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/convert-string-datetimes.md) |
@@ -79,8 +82,6 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | CONCAT with NULLs |  [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/concat-nulls.md) |
 | Capitalize initial letters (UDF) |  [![MySQL](https://img.shields.io/badge/MySQL-F29111)](./mysql/initcap-udf.md) |
 | Concatenating strings | [![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)](./mssql/concatenate-strings.md) |
-| <h3>Searching</h3>| |
-| Search for text in Stored Procedures | [![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)](./mssql/search-stored-procedures.md) |
 | <h3>Transformation</h3>| |
 | Pivot | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/pivot.md) |
 | Unpivoting / melting | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/unpivot-melt.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/unpivot-melt.md) | 
