@@ -78,6 +78,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | Replace multple conditions | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/replace-multiples.md) |
 | CONCAT with NULLs |  [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/concat-nulls.md) |
 | Capitalize initial letters (UDF) |  [![MySQL](https://img.shields.io/badge/MySQL-F29111)](./mysql/initcap-udf.md) |
+| Concatenating strings | [![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)](./mssql/concatenate-strings.md) |
 | <h3>Searching</h3>| |
 | Search for text in Stored Procedures | [![SQL Server](https://img.shields.io/badge/SQL%20Server-A91D22)](./mssql/search-stored-procedures.md) |
 | <h3>Transformation</h3>| |
