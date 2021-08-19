@@ -72,7 +72,7 @@ The colour of the badge is taken from the dominant colour of the database logo.
 | <h3>Geography</h3>| |
 | Calculating the distance between two points | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/geographical-distance.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/geographical-distance.md) |
 | <h3>JSON</h3>| |
-| Parsing JSON strings | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/json-strings.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/json-strings.md) |
+| Parsing JSON strings | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/json-strings.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/json-strings.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/parse-json.md)|
 | <h3>Regular & String expressions</h3>| |
 | Parsing URLs | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/regex-parse-url.md) [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8)](./snowflake/parse-url.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/regex-parse-url.md) |
 | Validating emails | [![BigQuery](https://img.shields.io/badge/BigQuery-4387fb)](./bigquery/regex-email.md) [![Postgres](https://img.shields.io/badge/Postgres-336791)](./postgres/regex-email.md) |
